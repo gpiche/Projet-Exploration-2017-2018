@@ -1,0 +1,2 @@
+width,height,xmin,ymin,xmax,ymax
+500,500,21,49,479,429
