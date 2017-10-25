@@ -1,5 +1,7 @@
 import pandas as pd
 import cv2
+import numpy as np
+
 
 
 class ImageManager:
@@ -13,7 +15,8 @@ class ImageManager:
             img = cv2.imread(image, 1)
             height, width = self.get_size(img)
             xmin, ymin, xmax, ymax = self.get_bounds(img)
-            value = (width, height, xmin, ymin, xmax, ymax)
+            normalised_image = np.mean(img, dtype=np.float64)
+            value = (width, height, xmin, ymin, xmax, ymax, normalised_image)
             if index is not None:
                 value += (index,)
             value_list.append(value)
@@ -22,9 +25,9 @@ class ImageManager:
 
     def create_csv_file(self, output_path, index, value_list):
         if index is None:
-            column_name = ['width', 'height', 'xmin', 'ymin', 'xmax', 'ymax']
+            column_name = ['width', 'height', 'xmin', 'ymin', 'xmax', 'ymax', 'normalised_value']
         else:
-            column_name = ['width', 'height', 'xmin', 'ymin', 'xmax', 'ymax', 'class_id']
+            column_name = ['width', 'height', 'xmin', 'ymin', 'xmax', 'ymax', 'normalised_value', 'class_id']
 
         xml_df = pd.DataFrame(value_list, columns=column_name)
         xml_df.to_csv(output_path, index=None)

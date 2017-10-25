@@ -11,13 +11,14 @@ feature_name = [
     'ymin',
     'xmax',
     'ymax',
+    'normalised_value'
 ]
 
 
 def input_fn(file_path, perform_shuffle=False, repeat_count=1):
 
     def decode_csv(line):
-        parsed_line = tf.decode_csv(line, [[0], [0], [0.], [0.], [0.], [0.], [0]])
+        parsed_line = tf.decode_csv(line, [[0], [0], [0.], [0.], [0.], [0.], [0.], [0]])
         label = parsed_line[-1:]
         del parsed_line[-1:]
         features = parsed_line

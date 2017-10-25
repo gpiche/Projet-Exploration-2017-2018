@@ -12,6 +12,7 @@ feature_name = [
     'ymin',
     'xmax',
     'ymax',
+    'normalised_value'
 
 
 ]
@@ -21,7 +22,7 @@ PREDICTION_PATH = 'Data/predict_info.csv'
 def input_fn_predict():
 
     def decode_data(line):
-        parsed_line = tf.decode_csv(line, [[0], [0], [0.], [0.], [0.], [0.]])
+        parsed_line = tf.decode_csv(line, [[0], [0], [0.], [0.], [0.], [0.], [0.]])
         features = parsed_line
         return dict(zip(feature_name, features))
 
