@@ -3,64 +3,69 @@ import tensorflow as tf
 import json
 from image_manager import ImageManager
 
-FLAGS = None
 
-feature_name = [
-    'width',
-    'height',
-    'xmin',
-    'ymin',
-    'xmax',
-    'ymax',
-    'normalised_value'
+class PredictionMaker:
+
+    FLAGS = None
 
 
-]
 
-PREDICTION_PATH = 'Data/predict_info.csv'
+    PREDICTION_PATH = 'Data/predict_info.csv'
 
-def input_fn_predict():
+    def __init__(self):
+        self.feature_name = [
+            'width',
+            'height',
+            'xmin',
+            'ymin',
+            'xmax',
+            'ymax',
+            'normalised_value'
+        ]
 
-    def decode_data(line):
-        parsed_line = tf.decode_csv(line, [[0], [0], [0.], [0.], [0.], [0.], [0.]])
-        features = parsed_line
-        return dict(zip(feature_name, features))
+        self.prediction_path = 'Data/predict_info.csv'
+        self.label_map = 'Data/label_map.txt'
 
-    dataset = (tf.contrib.data.TextLineDataset(PREDICTION_PATH)
-               .skip(1)  # Skip header row
-               .map(decode_data))  # Transform each elem by applying decode_csv fn
-    dataset = dataset.batch(1)
-    iterator = dataset.make_one_shot_iterator()
-    next_feature_batch = iterator.get_next()
-    return next_feature_batch, None
+    def input_fn_predict(self):
 
+        def decode_data(line):
+            parsed_line = tf.decode_csv(line, [[0], [0], [0.], [0.], [0.], [0.], [0.]])
+            features = parsed_line
+            return dict(zip(self.feature_name, features))
 
-def predict():
-    manager = ImageManager()
-    manager.get_image_info([FLAGS.i], PREDICTION_PATH)
+        dataset = (tf.contrib.data.TextLineDataset(self.prediction_path)
+                .skip(1)  # Skip header row
+                .map(decode_data))  # Transform each elem by applying decode_csv fn
+        dataset = dataset.batch(1)
+        iterator = dataset.make_one_shot_iterator()
+        next_feature_batch = iterator.get_next()
+        return next_feature_batch, None
 
-    feature_columns = [tf.feature_column.numeric_column(k) for k in feature_name]
-    classifier = tf.estimator.DNNClassifier(
-        feature_columns=feature_columns,
-        hidden_units=[10, 10],
-        n_classes=3,
-        model_dir='train_model'
-    )
+    def predict(self, image_path):
+        manager = ImageManager()
+        manager.get_image_info([image_path], self.prediction_path )
 
-    for predic in classifier.predict(input_fn=(lambda: input_fn_predict())):
-        object_predict = find_object_by_id(predic['class_ids'])
-        print(object_predict)
+        feature_columns = [tf.feature_column.numeric_column(k) for k in self.feature_name]
+        classifier = tf.estimator.DNNClassifier(
+            feature_columns=feature_columns,
+            hidden_units=[10, 10],
+            n_classes=3,
+            model_dir='train_model'
+        )
 
+        for predic in classifier.predict(input_fn=(lambda: self.input_fn_predict())):
+            object_predict = self.find_object_by_id(predic['class_ids'])
+            print(object_predict)
 
-def find_object_by_id(predict_id):
-    try:
-        with open(FLAGS.label_map, 'r') as file:
-            json_content = json.loads(file.read())
-            for object in json_content:
-                if object['id'] == predict_id:
-                    return object['class']
-    except IOError as e:
-        print(e)
+    def find_object_by_id(self, predict_id):
+        try:
+            with open(self.label_map, 'r') as file:
+                json_content = json.loads(file.read())
+                for object in json_content:
+                    if object['id'] == predict_id:
+                        return object['class']
+        except IOError as e:
+            print(e)
 
 
 if __name__ == '__main__':
@@ -84,5 +89,5 @@ if __name__ == '__main__':
     )
     FLAGS = parser.parse_args()
 
-    predict()
+
 
