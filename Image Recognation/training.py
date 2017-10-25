@@ -76,7 +76,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--training_dataset',
         type=str,
-        default=r'C:\Users\Guillaume\Documents\Automne 2017\Exploration nouvelle technologie\Projet-Exploration-2017-2018\Image Recognation\Data\training_info.txt',
+        default=r'C:\Users\Guillaume\Documents\Automne 2017\Exploration nouvelle technologie\Projet-Exploration-2017-2018\Image Recognation\Data\training_info.csv',
         help="""
         Path to the dataset.
         """

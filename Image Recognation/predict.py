@@ -16,7 +16,7 @@ feature_name = [
 
 ]
 
-PREDICTION_PATH = 'Data/predict_info.txt'
+PREDICTION_PATH = 'Data/predict_info.csv'
 
 def input_fn_predict():
 

@@ -13,7 +13,7 @@ def main(image_manager):
     for image in glob.glob(image_directory_path + '/*.jpg'):
         image_list.append(image)
 
-    image_manager.get_image_info(image_list, 'Data/training_info.txt', index=FLAGS.index)
+    image_manager.get_image_info(image_list, 'Data/training_info.csv', index=FLAGS.index)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
