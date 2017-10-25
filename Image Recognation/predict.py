@@ -6,12 +6,6 @@ from image_manager import ImageManager
 
 class PredictionMaker:
 
-    FLAGS = None
-
-
-
-    PREDICTION_PATH = 'Data/predict_info.csv'
-
     def __init__(self):
         self.feature_name = [
             'width',
