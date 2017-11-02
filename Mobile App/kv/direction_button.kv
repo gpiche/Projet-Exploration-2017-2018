@@ -3,26 +3,53 @@
 
 
     Button:
-        text: "Object 1"
         font_size: 15
-        height: 30
+        height: 40
         pos:(200,100)
         center_x: root.width / 2
+        on_press : root.go_forward()
+        Image:
+            source: 'images/up_arrow.png'
+            size: 20, 20
+            center_x: self.parent.center_x
+            center_y: self.parent.center_y
+            allow_stretch: True
+
+
+
     Button:
-        text: "Object 2"
         font_size: 15
-        height: 30
-        pos:(200,30)
-        center_x: root.width / 2.5
+        height: 40
+        pos:(200,50)
+        center_x: root.width / 2.8
+        on_press : root.go_left()
+        Image:
+            source: 'images/left.png'
+            size: 20, 20
+            center_x: self.parent.center_x
+            center_y: self.parent.center_y
+            allow_stretch: True
     Button:
-        text: "Object 3"
         font_size: 15
-        height: 30
-        pos:(200,30)
-        center_x: root.width / 1.6
+        height: 40
+        pos:(200,50)
+        center_x: root.width / 1.55
+        on_press: root.go_right()
+        Image:
+            source: 'images/icon-arrow-right-b-512.png'
+            size: 30, 30
+            center_x: self.parent.center_x
+            center_y: self.parent.center_y
+            allow_stretch: True
     Button:
-        text: "Object 4"
         font_size: 15
-        height: 30
+        height: 40
         pos:(200,0)
         center_x: root.width / 2
+        on_press : root.go_back()
+        Image:
+            source: 'images/icon-arrow-down-b-128.png'
+            size: 30, 30
+            center_x: self.parent.center_x
+            center_y: self.parent.center_y
+            allow_stretch: True
