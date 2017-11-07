@@ -15,7 +15,7 @@ class ImageManager:
             img = cv2.imread(image, 1)
             height, width = self.get_size(img)
             xmin, ymin, xmax, ymax = self.get_bounds(img)
-            normalised_image = np.mean(img, dtype=np.float64)
+            normalised_image = np.mean(img, dtype=np.double)
             value = (width, height, xmin, ymin, xmax, ymax, normalised_image)
             if index is not None:
                 value += (index,)
