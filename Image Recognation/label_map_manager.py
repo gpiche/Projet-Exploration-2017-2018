@@ -5,7 +5,7 @@ import os
 
 class LabelMapManager:
 
-    def __init__(self, label_map_path, object_list):
+    def __init__(self, label_map_path, object_list=None):
         self.label_map_path = label_map_path
         self.object_list = object_list
 
@@ -54,7 +54,7 @@ if __name__ == '__main__':
         type=list,
         nargs='+',
         action='append',
-        default=["chat", "tasse"],
+        default=["cup", "penguin", "ball", "pineapple"],
         help="""
               Different objects that will be in the label_map.
               """

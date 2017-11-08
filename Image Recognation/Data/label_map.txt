@@ -1,10 +1,18 @@
 [
     {
         "id": 1,
-        "class": "chat"
+        "class": "cup"
     },
     {
         "id": 2,
-        "class": "tasse"
+        "class": "penguin"
+    },
+    {
+        "id": 3,
+        "class": "ball"
+    },
+    {
+        "id": 4,
+        "class": "pineapple"
     }
 ]

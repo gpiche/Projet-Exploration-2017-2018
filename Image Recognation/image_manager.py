@@ -9,22 +9,27 @@ class ImageManager:
     def __init__(self):
         self.bounding_info = {}
 
-    def get_image_info(self, image_paths, output_path, index=None):
+    def get_image_info(self, image_paths, output_path, index=False):
         value_list = []
+
         for image in image_paths:
             img = cv2.imread(image, 1)
             height, width = self.get_size(img)
             xmin, ymin, xmax, ymax = self.get_bounds(img)
             normalised_image = np.mean(img, dtype=np.double)
             value = (width, height, xmin, ymin, xmax, ymax, normalised_image)
-            if index is not None:
-                value += (index,)
+
+            if index is True:
+                for key in image_paths.values():
+                    if image_paths[image] == key:
+                        value += (key,)
+                        break
             value_list.append(value)
 
         self.create_csv_file(output_path, index, value_list)
 
     def create_csv_file(self, output_path, index, value_list):
-        if index is None:
+        if index is False:
             column_name = ['width', 'height', 'xmin', 'ymin', 'xmax', 'ymax', 'normalised_value']
         else:
             column_name = ['width', 'height', 'xmin', 'ymin', 'xmax', 'ymax', 'normalised_value', 'class_id']

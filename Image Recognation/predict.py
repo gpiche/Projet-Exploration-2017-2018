@@ -37,7 +37,7 @@ class PredictionMaker:
 
     def predict(self, image_path):
         manager = ImageManager()
-        manager.get_image_info([image_path], self.prediction_path )
+        manager.get_image_info([image_path], self.prediction_path)
 
         feature_columns = [tf.feature_column.numeric_column(k) for k in self.feature_name]
         classifier = tf.estimator.DNNClassifier(
