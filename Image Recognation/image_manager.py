@@ -11,11 +11,10 @@ class ImageManager:
 
     def get_image_info(self, image_paths, output_path, index=False):
         value_list = []
-
         for image in image_paths:
             img = cv2.imread(image, 1)
             height, width = self.get_size(img)
-            xmin, ymin, xmax, ymax = self.get_bounds(img)
+            xmin, ymin, xmax, ymax = self.get_bounds(image)
             normalised_image = np.mean(img, dtype=np.double)
             value = (width, height, xmin, ymin, xmax, ymax, normalised_image)
 
@@ -41,27 +40,19 @@ class ImageManager:
         return img.shape[:2]
 
     def get_bounds(self, image):
-        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  # grayscale
-        _, thresh = cv2.threshold(gray, 150, 255, cv2.THRESH_BINARY_INV)  # threshold
-        kernel = cv2.getStructuringElement(cv2.MORPH_CROSS, (3, 3))
-        dilated = cv2.dilate(thresh, kernel, iterations=13)  # dilate
-        _, contours, _ = cv2.findContours(dilated, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)  # get contours
+        img = cv2.pyrDown(cv2.imread(image, cv2.IMREAD_UNCHANGED))
 
-        # for each contour found, draw a rectangle around it on original image
-        x, y, w, h = 0, 0, 0, 0
-        for contour in contours:
+        ret, threshed_img = cv2.threshold(cv2.cvtColor(img, cv2.COLOR_BGR2GRAY),
+                                          127, 255, cv2.THRESH_BINARY)
 
-            [x, y, w, h] = cv2.boundingRect(contour)
+        image, contours, hier = cv2.findContours(threshed_img, cv2.RETR_TREE,
+                                                 cv2.CHAIN_APPROX_SIMPLE)
 
-            if h > 1500 and w > 1500:
-                continue
+        for c in contours:
 
-            if h < 250 or w < 250:
-                continue
-
-        return x, y, w, h
-
+            return cv2.boundingRect(c)
 
 
 if __name__ == '__main__':
-    pass
+    man = ImageManager()
+    man.get_bounds('Images/cup-84.jpg')
