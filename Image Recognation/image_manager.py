@@ -7,7 +7,7 @@ import numpy as np
 class ImageManager:
 
     def __init__(self):
-        self.bounding_info = {}
+        self.bounding_info = [1000, 1000, 0, 0]
 
     def get_image_info(self, image_paths, output_path, index=False):
         value_list = []
@@ -47,12 +47,27 @@ class ImageManager:
 
         image, contours, hier = cv2.findContours(threshed_img, cv2.RETR_TREE,
                                                  cv2.CHAIN_APPROX_SIMPLE)
-
+        height, width = img.shape[:2]
         for c in contours:
+            x, y, w, h = cv2.boundingRect(c)
+            cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
-            return cv2.boundingRect(c)
+            if w == width and h == height and len(contours) > 1:
+                pass
+            elif w < width / 6 or h < height / 6:
+                pass
+            elif x > self.bounding_info[0] and y > self.bounding_info[1]:
+                pass
+            else:
+                self.bounding_info = []
+                self.bounding_info.extend([x, y, w, h])
+
+            xmax = self.bounding_info[2] + self.bounding_info[0]
+            ymax = self.bounding_info[3] + self.bounding_info[1]
+
+            return self.bounding_info[0], self.bounding_info[1], xmax, ymax
 
 
 if __name__ == '__main__':
     man = ImageManager()
-    man.get_bounds('Images/cup-84.jpg')
+    man.get_bounds('Images/ALL-69.jpg')
