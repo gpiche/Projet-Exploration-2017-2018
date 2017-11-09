@@ -54,8 +54,6 @@ class ImageManager:
 
             if w == width and h == height and len(contours) > 1:
                 pass
-            elif w < width / 6 or h < height / 6:
-                pass
             elif x > self.bounding_info[0] and y > self.bounding_info[1]:
                 pass
             else:
@@ -65,7 +63,7 @@ class ImageManager:
             xmax = self.bounding_info[2] + self.bounding_info[0]
             ymax = self.bounding_info[3] + self.bounding_info[1]
 
-            return self.bounding_info[0], self.bounding_info[1], xmax, ymax
+            return self.bounding_info[0], self.bounding_info[1], self.bounding_info[2], self.bounding_info[3]
 
 
 if __name__ == '__main__':
