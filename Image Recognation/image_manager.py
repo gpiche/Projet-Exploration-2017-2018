@@ -1,6 +1,7 @@
 import pandas as pd
 import cv2
 import numpy as np
+from scipy import ndimage
 
 
 
@@ -41,6 +42,7 @@ class ImageManager:
 
     def get_bounds(self, image):
         img = cv2.pyrDown(cv2.imread(image, cv2.IMREAD_UNCHANGED))
+        cv2.resize(img, (500, 500))
 
         ret, threshed_img = cv2.threshold(cv2.cvtColor(img, cv2.COLOR_BGR2GRAY),
                                           127, 255, cv2.THRESH_BINARY)
@@ -48,20 +50,16 @@ class ImageManager:
         image, contours, hier = cv2.findContours(threshed_img, cv2.RETR_TREE,
                                                  cv2.CHAIN_APPROX_SIMPLE)
         height, width = img.shape[:2]
+
         for c in contours:
             x, y, w, h = cv2.boundingRect(c)
             cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
             if w == width and h == height and len(contours) > 1:
                 pass
-            elif x > self.bounding_info[0] and y > self.bounding_info[1]:
-                pass
             else:
                 self.bounding_info = []
                 self.bounding_info.extend([x, y, w, h])
-
-            xmax = self.bounding_info[2] + self.bounding_info[0]
-            ymax = self.bounding_info[3] + self.bounding_info[1]
 
             return self.bounding_info[0], self.bounding_info[1], self.bounding_info[2], self.bounding_info[3]
 
