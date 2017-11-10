@@ -4,8 +4,8 @@ kivy.require('1.10.0')
 from kivy.app import App
 from kivy.lang import Builder
 from kivy.uix.gridlayout import GridLayout
-from kivy.properties import ObjectProperty
-from kivy.uix.button import Button
+from kivy.animation import Animation
+from kivy.properties import NumericProperty
 from kivy.uix.label import Label
 from kivy.uix.screenmanager import ScreenManager, Screen
 from os import listdir
@@ -49,6 +49,21 @@ class Direction(GridLayout):
 
 class MenuScreen(Screen, GridLayout):
     pass
+
+
+class ImageAnimation(GridLayout):
+    angle = NumericProperty(0)
+
+    def __init__(self, **kwargs):
+        super(ImageAnimation, self).__init__(**kwargs)
+        anim = Animation(angle=360, duration=2)
+        anim += Animation(angle=360, duration=2)
+        anim.repeat = True
+        anim.start(self)
+
+    def on_angle(self, item, angle):
+        if angle == 360:
+            item.angle = 0
 
 
 class DetailScreen(Screen):
