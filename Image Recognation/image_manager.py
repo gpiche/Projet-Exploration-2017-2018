@@ -15,7 +15,7 @@ class ImageManager:
         for image in image_paths:
             img = cv2.imread(image, 1)
             height, width = self.get_size(img)
-            xmin, ymin, xmax, ymax = self.get_bounds(image)
+            xmin, ymin, xmax, ymax = self.get_bounds(img)
             normalised_image = np.mean(img, dtype=np.double)
             value = (width, height, xmin, ymin, xmax, ymax, normalised_image)
 
@@ -41,34 +41,25 @@ class ImageManager:
         return img.shape[:2]
 
     def get_bounds(self, image):
-        image = cv2.imread(image)
-        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  # grayscale
-        _, thresh = cv2.threshold(gray, 150, 255, cv2.THRESH_BINARY_INV)  # threshold
-        kernel = cv2.getStructuringElement(cv2.MORPH_CROSS, (3, 3))
-        dilated = cv2.dilate(thresh, kernel, iterations=13)  # dilate
-        _, contours, hierarchy = cv2.findContours(dilated, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)  # get contours
+        net = cv2.dnn.readNetFromCaffe('tracker/MobileNetSSD_deploy.prototxt.txt',
+                                       'tracker/MobileNetSSD_deploy.caffemodel')
+        (h, w) = image.shape[:2]
+        blob = cv2.dnn.blobFromImage(cv2.resize(image, (300, 300)), 0.007843, (300, 300), 127.5)
+        net.setInput(blob)
+        detections = net.forward()
+        start_x, start_y, end_x, end_y = 0, 0, 0, 0
 
-        # for each contour found, draw a rectangle around it on original image
-        x , y , w, h = 0, 0, 0, 0
-        for contour in contours:
-            # get rectangle bounding contour
-            [x, y, w, h] = cv2.boundingRect(contour)
+        for i in np.arange(0, detections.shape[2]):
+            confidence = detections[0, 0, i, 2]
 
-            # discard areas that are too large
-            if h > 400 and w > 400:
-                continue
+            if confidence > 0.2:
+                box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
+                (start_x, start_y, end_x, end_y) = box.astype("int")
 
-            # discard areas that are too small
-            if h < 40 or w < 40:
-                continue
-
-            # draw rectangle around contour on original image
-        return x, y, w, h
-
-
-
+        return start_x, start_y, end_x, end_y
 
 
 if __name__ == '__main__':
     man = ImageManager()
-    man.get_bounds('Images/ALL-69.jpg')
+    image = cv2.imread('Images/cup-3.jpg')
+    man.get_bounds(image)
