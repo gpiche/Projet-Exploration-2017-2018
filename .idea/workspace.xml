@@ -5,19 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3232a522-401c-41dc-bc5b-e2cf5e0e4749" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/data_assembler.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/checkpoint" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/eval/events.out.tfevents.1510179137.DESKTOP-I6Q9JK5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/events.out.tfevents.1510178998.DESKTOP-I6Q9JK5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/graph.pbtxt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-1.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-1.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-1.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-44375.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-44375.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-44375.meta" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Image Recognation/training.py" afterPath="$PROJECT_DIR$/Image Recognation/training.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-190744.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-190744.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5556.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5556.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5557.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5557.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98150.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98150.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98151.data-00000-of-00001" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98151.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/checkpoint" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/eval/events.out.tfevents.1511294412.DESKTOP-I6Q9JK5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/eval/events.out.tfevents.1511294929.DESKTOP-I6Q9JK5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/eval/events.out.tfevents.1511295344.DESKTOP-I6Q9JK5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/events.out.tfevents.1511294380.DESKTOP-I6Q9JK5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/events.out.tfevents.1511294561.DESKTOP-I6Q9JK5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/events.out.tfevents.1511294975.DESKTOP-I6Q9JK5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/graph.pbtxt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-190744.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5556.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5557.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98150.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98151.index" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -638,9 +648,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33826637" sideWeight="0.5828125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
