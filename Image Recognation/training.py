@@ -37,19 +37,21 @@ def input_fn(file_path, perform_shuffle=False, repeat_count=1):
 
 
 def train():
-    tf.reset_default_graph()
+
     feature_columns = [tf.feature_column.numeric_column(k) for k in feature_name]
 
     classifier = tf.estimator.DNNClassifier(
         feature_columns=feature_columns,
         hidden_units=[10, 10],
-        n_classes=3,
+        n_classes=10,
         model_dir='train_model'
     )
 
+    print("[INFO] Training.... ")
     classifier.train(
-        input_fn=lambda: input_fn(FLAGS.training_dataset, True, 10000))
+        input_fn=lambda: input_fn(FLAGS.training_dataset, True, 1000))
 
+    print("[INFO] Evaluating.... ")
     evaluate_result = classifier.evaluate(
         input_fn=lambda: input_fn(FLAGS.training_dataset, False, 4))
     print("Evaluation results")
