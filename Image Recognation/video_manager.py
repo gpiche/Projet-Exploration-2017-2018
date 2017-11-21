@@ -12,9 +12,9 @@ class VideoManager:
         self.validate_cap(self.cap)
 
     def validate_cap(self, cap):
-        if not cap.isOpened():
-            print("Fatal Error: Could not open the specified file.")
-            exit(-1)
+         if not cap.isOpened():
+             print("Fatal Error: Could not open the specified file.")
+             exit(-1)
 
     def read(self):
         while True:

@@ -54,7 +54,7 @@ if __name__ == '__main__':
         type=list,
         nargs='+',
         action='append',
-        default=["cup", "penguin", "ball", "pineapple"],
+        default=["cup", "water bottle", "ball", "bowl"],
         help="""
               Different objects that will be in the label_map.
               """
