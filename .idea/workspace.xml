@@ -5,29 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3232a522-401c-41dc-bc5b-e2cf5e0e4749" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-190744.data-00000-of-00001" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-190744.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5556.data-00000-of-00001" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5556.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5557.data-00000-of-00001" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5557.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98150.data-00000-of-00001" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98150.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98151.data-00000-of-00001" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98151.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/checkpoint" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/eval/events.out.tfevents.1511294412.DESKTOP-I6Q9JK5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/eval/events.out.tfevents.1511294929.DESKTOP-I6Q9JK5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/eval/events.out.tfevents.1511295344.DESKTOP-I6Q9JK5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/events.out.tfevents.1511294380.DESKTOP-I6Q9JK5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/events.out.tfevents.1511294561.DESKTOP-I6Q9JK5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/events.out.tfevents.1511294975.DESKTOP-I6Q9JK5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/graph.pbtxt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-190744.index" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5556.index" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5557.index" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98150.index" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98151.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image Recognation/Data/image_data.csv" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5556.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5556.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5556.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5557.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5557.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-5557.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98150.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98150.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98150.meta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Image Recognation/train_model/checkpoint" afterPath="$PROJECT_DIR$/Image Recognation/train_model/checkpoint" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Image Recognation/train_model/graph.pbtxt" afterPath="$PROJECT_DIR$/Image Recognation/train_model/graph.pbtxt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Image Recognation/training.py" afterPath="$PROJECT_DIR$/Image Recognation/training.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +34,7 @@
     <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$main.coverage" NAME="main Coverage Results" MODIFIED="1510435986410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mobile App" />
     <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$video_manager.coverage" NAME="video_manager Coverage Results" MODIFIED="1510347936007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Image Recognation" />
     <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$training_data_creator.coverage" NAME="training_data_creator Coverage Results" MODIFIED="1511287079434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Image Recognation" />
-    <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$training.coverage" NAME="training Coverage Results" MODIFIED="1511294965215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Image Recognation" />
+    <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$training.coverage" NAME="training Coverage Results" MODIFIED="1511296228040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Image Recognation" />
     <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$label_map_manager.coverage" NAME="label_map_manager Coverage Results" MODIFIED="1511213757807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Image Recognation" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -75,18 +66,18 @@
       <file leaf-file-name="training.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Image Recognation/training.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="55" column="68" lean-forward="true" selection-start-line="55" selection-start-column="68" selection-end-line="55" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_assembler.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data_assembler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Image Recognation/data_assembler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            <state relative-caret-position="221">
+              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -104,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image_data.csv" pinned="false" current-in-tab="false">
+      <file leaf-file-name="image_data.csv" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Image Recognation/Data/image_data.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -183,9 +174,9 @@
         <option value="$PROJECT_DIR$/Image Recognation/Data/test.csv" />
         <option value="$PROJECT_DIR$/Image Recognation/training_data_creator.py" />
         <option value="$PROJECT_DIR$/Image Recognation/Data/training_info.csv" />
-        <option value="$PROJECT_DIR$/Image Recognation/training.py" />
         <option value="$PROJECT_DIR$/Image Recognation/assemble_data.py" />
         <option value="$PROJECT_DIR$/Image Recognation/data_assembler.py" />
+        <option value="$PROJECT_DIR$/Image Recognation/training.py" />
       </list>
     </option>
   </component>
@@ -648,9 +639,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33826637" sideWeight="0.5828125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -947,14 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Image Recognation/Data/image_data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="188" column="80" lean-forward="false" selection-start-line="188" selection-start-column="80" selection-end-line="188" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Image Recognation/predict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -987,14 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Image Recognation/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Image Recognation/assemble_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1005,11 +980,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Image Recognation/data_assembler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        <state relative-caret-position="221">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Image Recognation/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="55" column="68" lean-forward="true" selection-start-line="55" selection-start-column="68" selection-end-line="55" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Image Recognation/Data/image_data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="188" column="80" lean-forward="false" selection-start-line="188" selection-start-column="80" selection-end-line="188" selection-end-column="80" />
+          <folding />
         </state>
       </provider>
     </entry>

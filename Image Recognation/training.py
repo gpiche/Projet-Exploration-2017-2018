@@ -55,8 +55,13 @@ def train():
     evaluate_result = classifier.evaluate(
         input_fn=lambda: input_fn(FLAGS.training_dataset, False, 4))
     print("Evaluation results")
-    for key in evaluate_result:
-        print("   {}, was: {}".format(key, evaluate_result[key]))
+    with open('log.txt', 'rw') as file:
+        for key in evaluate_result:
+            file.read()
+            file.write('------------------------------------------------------')
+            file.write("   {}, was: {}".format(key, evaluate_result[key]))
+            file.write('------------------------------------------------------')
+        file.close()
 
 
 def main():
