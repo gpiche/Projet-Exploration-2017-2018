@@ -43,8 +43,8 @@ class PredictionMaker:
         classifier = tf.estimator.DNNClassifier(
             feature_columns=feature_columns,
             hidden_units=[10, 10],
-            n_classes=3,
-            model_dir='train_model'
+            n_classes=10,
+            model_dir='ssd_mobilenet_v1_coco_11_06_2017'
         )
 
         for predic in classifier.predict(input_fn=(lambda: self.input_fn_predict())):

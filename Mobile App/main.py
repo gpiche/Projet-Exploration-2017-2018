@@ -9,15 +9,20 @@ from kivy.properties import NumericProperty
 from kivy.uix.label import Label
 from kivy.uix.screenmanager import ScreenManager, Screen
 from os import listdir
+from Connexion import Connexion
+import json
 kv_path = './kv/'
 for kv in listdir(kv_path):
     Builder.load_file(kv_path+kv)
+
+client = Connexion()
 
 
 class ObjectButton(GridLayout):
 
     def find_object(self, button):
-        sm.current = 'detail'
+        client.send(json.dumps({'salutation': 'BonjourServeur!!'}))
+        #sm.current = 'detail'
 
 
 class TitleLabel(Label):
@@ -67,7 +72,9 @@ class ImageAnimation(GridLayout):
 
 
 class DetailScreen(Screen):
-    pass
+
+    def go_to_main_page(self):
+        sm.current = 'menu'
 
 
 sm = ScreenManager()

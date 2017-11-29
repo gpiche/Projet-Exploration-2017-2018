@@ -1,5 +1,7 @@
 import argparse
 import tensorflow as tf
+import datetime
+import time
 
 
 FLAGS = None
@@ -37,31 +39,33 @@ def input_fn(file_path, perform_shuffle=False, repeat_count=1):
 
 
 def train():
+    iteration = 1
+    timeout = time.time() + 60 * 60 * 11
 
     feature_columns = [tf.feature_column.numeric_column(k) for k in feature_name]
 
-    classifier = tf.estimator.DNNClassifier(
-        feature_columns=feature_columns,
-        hidden_units=[10, 10],
-        n_classes=10,
-        model_dir='train_model'
-    )
+    while True:
+        tf.reset_default_graph()
+        classifier = tf.estimator.DNNClassifier(
+            feature_columns=feature_columns,
+            hidden_units=[10, 10],
+            n_classes=10,
+            model_dir='/tmp/image_model'
+        )
 
-    print("[INFO] Training.... ")
-    classifier.train(
-        input_fn=lambda: input_fn(FLAGS.training_dataset, True, 1000))
+        print("[INFO] Training.... ")
+        classifier.train(
+            input_fn=lambda: input_fn(FLAGS.training_dataset, True, 100))
 
-    print("[INFO] Evaluating.... ")
-    evaluate_result = classifier.evaluate(
-        input_fn=lambda: input_fn(FLAGS.training_dataset, False, 4))
-    print("Evaluation results")
-    with open('log.txt', 'rw') as file:
+        print("[INFO] Evaluating.... ")
+        evaluate_result = classifier.evaluate(
+            input_fn=lambda: input_fn(FLAGS.training_dataset, False, 4))
+        print("[INFO] ---------------------------------------")
+
         for key in evaluate_result:
-            file.read()
-            file.write('------------------------------------------------------')
-            file.write("   {}, was: {}".format(key, evaluate_result[key]))
-            file.write('------------------------------------------------------')
-        file.close()
+            print("   {}, was: {} \n".format(key, evaluate_result[key]))
+
+        iteration += 1
 
 
 def main():

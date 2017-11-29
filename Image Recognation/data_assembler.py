@@ -1,12 +1,11 @@
 import os
 from urllib.request import urlretrieve
-import hashlib
 import argparse
 import numpy as np
 import pandas as pd
 import multiprocessing
 from PIL import Image
-import scipy.ndimage
+
 
 args = None
 MISSING_IMAGE_SHA1 = '6a92790b1c2a301c6e7ddef645dca1f53ea97ac2'
@@ -44,8 +43,8 @@ class DataAssembler:
             self.training_directory = os.path.join(self.caffe_directory, 'data\\image_recognition')
         return os.path.join(self.training_directory, 'images')
 
-
-    def create_work_directory(self, images_directory):
+    @staticmethod
+    def create_work_directory(images_directory):
         if not os.path.exists(images_directory):
             os.makedirs(images_directory)
 
@@ -55,7 +54,7 @@ class DataAssembler:
             df.shape[0], num_workers))
         pool = multiprocessing.Pool(processes=num_workers)
         map_args = zip(df['image_url'], df['image_filename'])
-        return pool.map(download_image, map_args)
+        return pool.map(self.download_image, map_args)
 
     def get_workers(self, num_workers):
         if num_workers <= 0:
@@ -66,7 +65,7 @@ class DataAssembler:
         for split in ['train', 'test']:
             split_df = df[df['_split'] == split]
             filename = os.path.join(self.training_directory, '{}.txt'.format(split))
-            split_df = add_jpg_extension(split_df)
+            split_df = self.add_jpg_extension(split_df)
             split_df[['image_name', 'label']].to_csv(
                 filename, sep=' ', header=None, index=None)
         print('Writing train/val for {} successfully downloaded images.'.format(
@@ -78,26 +77,25 @@ class DataAssembler:
         results = self.download_images(df)
         self.map_downloaded_data(df, results)
 
+    @staticmethod
+    def add_jpg_extension(df):
+        for index in df['image_name'].index.tolist():
+            df.loc[index, 'image_name'] = '{}'.format(df.loc[index, 'image_name'] + '.jpeg')
+        return df
 
-def add_jpg_extension(df):
-    for index in df['image_name'].index.tolist():
-        i = df['image_name']
-        df.loc[index, 'image_name'] = '{}'.format(df.loc[index, 'image_name'] + '.jpeg')
-    return df
-
-
-def download_image(args_tuple):
-    "For use with multiprocessing map. Returns filename on fail."
-    try:
-        url, filename = args_tuple
-        if not os.path.exists(filename):
-            urlretrieve(url, filename)
-        test_read_image = Image.open(filename)
-        return True
-    except KeyboardInterrupt:
-        raise Exception()  # multiprocessing doesn't catch keyboard exceptions
-    except:
-        return False
+    @staticmethod
+    def download_image(args_tuple):
+        "For use with multiprocessing map. Returns filename on fail."
+        try:
+            url, filename = args_tuple
+            if not os.path.exists(filename):
+                urlretrieve(url, filename)
+            test_read_image = Image.open(filename)
+            return True
+        except KeyboardInterrupt:
+            raise Exception()  # multiprocessing doesn't catch keyboard exceptions
+        except:
+            return False
 
 
 if __name__ == '__main__':
