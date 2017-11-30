@@ -57,13 +57,13 @@ def train():
         classifier.train(
             input_fn=lambda: input_fn(FLAGS.training_dataset, True, 100))
 
-        print("[INFO] Evaluating.... ")
-        evaluate_result = classifier.evaluate(
-            input_fn=lambda: input_fn(FLAGS.training_dataset, False, 4))
-        print("[INFO] ---------------------------------------")
+        # print("[INFO] Evaluating.... ")
+        # evaluate_result = classifier.evaluate(
+            # input_fn=lambda: input_fn(FLAGS.training_dataset, False, 4))
+        # print("[INFO] ---------------------------------------")
 
-        for key in evaluate_result:
-            print("   {}, was: {} \n".format(key, evaluate_result[key]))
+        # for key in evaluate_result:
+            # print("   {}, was: {} \n".format(key, evaluate_result[key]))
 
         iteration += 1
 

@@ -21,8 +21,8 @@ client = Connexion()
 class ObjectButton(GridLayout):
 
     def find_object(self, button):
-        client.send(json.dumps({'salutation': 'BonjourServeur!!'}))
-        #sm.current = 'detail'
+        client.send(json.dumps({'object': button.text}))
+        # sm.current = 'detail'
 
 
 class TitleLabel(Label):
@@ -39,17 +39,25 @@ class ObjectsScreen(GridLayout):
 
 class Direction(GridLayout):
 
-    def go_forward(self):
-        pass
+    @staticmethod
+    def go_forward():
+        client.send(json.dumps({'command': 'go_ahead'}))
 
-    def go_back(self):
-        pass
+    @staticmethod
+    def go_back():
+        client.send(json.dumps({'command': 'go_back'}))
 
-    def go_left(self):
-        pass
+    @staticmethod
+    def go_left():
+        client.send(json.dumps({'command': 'go_left'}))
 
-    def go_right(self):
-        pass
+    @staticmethod
+    def go_right():
+        client.send(json.dumps({'command': 'go_right'}))
+
+    @staticmethod
+    def stop():
+        client.send(json.dumps({'command': 'stop'}))
 
 
 class MenuScreen(Screen, GridLayout):
@@ -66,14 +74,16 @@ class ImageAnimation(GridLayout):
         anim.repeat = True
         anim.start(self)
 
-    def on_angle(self, item, angle):
+    @staticmethod
+    def on_angle( item, angle):
         if angle == 360:
             item.angle = 0
 
 
 class DetailScreen(Screen):
 
-    def go_to_main_page(self):
+    @staticmethod
+    def go_to_main_page():
         sm.current = 'menu'
 
 

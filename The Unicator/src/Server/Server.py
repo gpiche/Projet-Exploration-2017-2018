@@ -7,8 +7,8 @@ from Client_thread import ClientThread
 class Server(threading.Thread):
     MAX_RECV = 10*1024*1024
 
-    def __init__(self, threadName, connection, protocol):
-        threading.Thread.__init__(self, name = threadName)
+    def __init__(self, thread_name, connection, protocol):
+        threading.Thread.__init__(self, name=thread_name)
         self.nb_clients = 0
         self.connection = connection
         self.protocol = protocol
@@ -29,10 +29,12 @@ class Server(threading.Thread):
             pp.pprint(self.clients)
             self.nb_clients += 1
 
-    def on_next(self, value):
+    @staticmethod
+    def on_next(value):
         print("Received {0}".format(value))
 
-    def on_completed(self):
+    @staticmethod
+    def on_completed():
         print("Done!")
 
 

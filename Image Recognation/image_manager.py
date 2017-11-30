@@ -28,7 +28,8 @@ class ImageManager:
 
         self.create_csv_file(output_path, index, value_list)
 
-    def create_csv_file(self, output_path, index, value_list):
+    @staticmethod
+    def create_csv_file(output_path, index, value_list):
         if index is False:
             column_name = ['width', 'height', 'xmin', 'ymin', 'xmax', 'ymax', 'normalised_value']
         else:
@@ -37,10 +38,12 @@ class ImageManager:
         xml_df = pd.DataFrame(value_list, columns=column_name)
         xml_df.to_csv(output_path, index=None)
 
-    def get_size(self, img):
+    @staticmethod
+    def get_size(img):
         return img.shape[:2]
 
-    def get_bounds(self, image):
+    @staticmethod
+    def get_bounds(image):
         net = cv2.dnn.readNetFromCaffe('tracker/MobileNetSSD_deploy.prototxt.txt',
                                        'tracker/MobileNetSSD_deploy.caffemodel')
         (h, w) = image.shape[:2]

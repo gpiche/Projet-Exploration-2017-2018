@@ -5,173 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3232a522-401c-41dc-bc5b-e2cf5e0e4749" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mobile App/Connexion.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-100.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-101.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-102.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-103.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-104.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-105.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-106.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-107.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-108.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-109.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-110.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-111.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-112.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-113.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-114.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-115.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-116.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-117.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-118.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-119.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-120.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-121.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-122.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-123.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-124.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-125.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-126.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-127.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-129.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-130.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-131.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-132.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-133.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-134.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-135.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-136.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-137.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-138.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-139.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-140.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-150.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-151.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-46.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-56.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-61.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-63.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-65.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-66.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-67.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-68.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-69.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-72.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-75.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-76.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-77.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-78.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-81.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-82.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-83.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-84.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-85.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-86.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-87.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-88.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-89.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-90.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-91.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-92.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-93.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-94.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-95.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-96.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-97.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-98.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/Images/cup-99.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/checkpoint" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/eval/events.out.tfevents.1511294412.DESKTOP-I6Q9JK5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/eval/events.out.tfevents.1511294929.DESKTOP-I6Q9JK5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/eval/events.out.tfevents.1511295344.DESKTOP-I6Q9JK5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/events.out.tfevents.1511294380.DESKTOP-I6Q9JK5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/events.out.tfevents.1511294561.DESKTOP-I6Q9JK5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/events.out.tfevents.1511294975.DESKTOP-I6Q9JK5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/graph.pbtxt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-190744.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-190744.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-190744.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98151.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98151.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-98151.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/The Unicator/src/Client/Client.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/The Unicator/src/Client/Connexion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/The Unicator/src/Client/Prompt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/The Unicator/src/Client/Protocol.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/The Unicator/src/Client/Protocol_json.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/The Unicator/src/Client/__init__.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Image Recognation/video_manager.py" afterPath="$PROJECT_DIR$/The Unicator/src/Server/video_manager.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/The Unicator/src/Server/Protocol_json.py" afterPath="$PROJECT_DIR$/The Unicator/src/Server/ProtocolJson.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Projet-Exploration-2017-2018.iml" afterPath="$PROJECT_DIR$/.idea/Projet-Exploration-2017-2018.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Image Recognation/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Image Recognation/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Image Recognation/Data/predict_info.csv" afterPath="$PROJECT_DIR$/Image Recognation/Data/predict_info.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Image Recognation/data_assembler.py" afterPath="$PROJECT_DIR$/Image Recognation/data_assembler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Image Recognation/image_manager.py" afterPath="$PROJECT_DIR$/Image Recognation/image_manager.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Image Recognation/predict.py" afterPath="$PROJECT_DIR$/Image Recognation/predict.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Image Recognation/training.py" afterPath="$PROJECT_DIR$/Image Recognation/training.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mobile App/kv/detail.kv" afterPath="$PROJECT_DIR$/Mobile App/kv/detail.kv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mobile App/kv/image_animation.kv" afterPath="$PROJECT_DIR$/Mobile App/kv/image_animation.kv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mobile App/kv/object_button.kv" afterPath="$PROJECT_DIR$/Mobile App/kv/object_button.kv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mobile App/Connexion.py" afterPath="$PROJECT_DIR$/Mobile App/Connexion.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mobile App/kv/direction_button.kv" afterPath="$PROJECT_DIR$/Mobile App/kv/direction_button.kv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mobile App/main.py" afterPath="$PROJECT_DIR$/Mobile App/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/The Unicator/src/Server/Client_thread.py" afterPath="$PROJECT_DIR$/The Unicator/src/Server/Client_thread.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/The Unicator/src/Server/Connection.py" afterPath="$PROJECT_DIR$/The Unicator/src/Server/Connection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/The Unicator/src/Server/Server.py" afterPath="$PROJECT_DIR$/The Unicator/src/Server/Server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/The Unicator/src/Server/Start_server.py" afterPath="$PROJECT_DIR$/The Unicator/src/Server/Start_server.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -184,12 +40,14 @@
     <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$image_manager.coverage" NAME="image_manager Coverage Results" MODIFIED="1510343264911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Image Recognation" />
     <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$my_main.coverage" NAME="my_main Coverage Results" MODIFIED="1509125148231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mobile App" />
     <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$assemble_data.coverage" NAME="assemble_data Coverage Results" MODIFIED="1511281268797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Image Recognation" />
-    <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$main.coverage" NAME="main Coverage Results" MODIFIED="1511890804440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mobile App" />
+    <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$Start_server.coverage" NAME="Start_server Coverage Results" MODIFIED="1512018367372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/The Unicator/src/Server" />
+    <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$main.coverage" NAME="main Coverage Results" MODIFIED="1512018514039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mobile App" />
+    <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$Server.coverage" NAME="Server Coverage Results" MODIFIED="1511994094318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/The Unicator/src/Server" />
     <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$training_data_creator.coverage" NAME="training_data_creator Coverage Results" MODIFIED="1511287079434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Image Recognation" />
     <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$video_manager.coverage" NAME="video_manager Coverage Results" MODIFIED="1511918240659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Image Recognation" />
-    <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$training.coverage" NAME="training Coverage Results" MODIFIED="1511988418086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Image Recognation" />
+    <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$training.coverage" NAME="training Coverage Results" MODIFIED="1512018560401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Image Recognation" />
     <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$label_map_manager.coverage" NAME="label_map_manager Coverage Results" MODIFIED="1511213757807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Image Recognation" />
-    <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$predict.coverage" NAME="predict Coverage Results" MODIFIED="1511496050533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Image Recognation" />
+    <SUITE FILE_PATH="coverage/Projet-Exploration-2017-2018$predict.coverage" NAME="predict Coverage Results" MODIFIED="1512018086905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Image Recognation" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -200,8 +58,90 @@
       <file leaf-file-name="predict.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Image Recognation/predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            <state relative-caret-position="356">
+              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProtocolJson.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/The Unicator/src/Server/ProtocolJson.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client_thread.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/The Unicator/src/Server/Client_thread.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="67" lean-forward="false" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="training.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Image Recognation/training.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mobile App/kv/menu.kv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image_animation.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mobile App/kv/image_animation.kv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="direction_button.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mobile App/kv/direction_button.kv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mobile App/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-850">
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/client/session.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="1320" column="0" lean-forward="false" selection-start-line="1320" selection-start-column="0" selection-end-line="1320" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -210,88 +150,8 @@
       <file leaf-file-name="training_data_creator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Image Recognation/training_data_creator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data_assembler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Image Recognation/data_assembler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Image Recognation/log.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15283">
-              <caret line="899" column="41" lean-forward="false" selection-start-line="899" selection-start-column="41" selection-end-line="899" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Mobile App/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Connexion.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mobile App/Connexion.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video_manager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Image Recognation/video_manager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="label_map_manager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Image Recognation/label_map_manager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image_manager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Image Recognation/image_manager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="training.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Image Recognation/training.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="969">
+              <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -317,11 +177,9 @@
         <option value="$PROJECT_DIR$/Mobile App/kv/label.kv" />
         <option value="$PROJECT_DIR$/Mobile App/kv/button.kv" />
         <option value="$PROJECT_DIR$/Mobile App/kv/object_button_label.kv" />
-        <option value="$PROJECT_DIR$/Mobile App/kv/direction_button.kv" />
         <option value="$PROJECT_DIR$/Mobile App/mobile.kv" />
         <option value="$PROJECT_DIR$/Image Recognation/Data/predict_info.csv" />
         <option value="$PROJECT_DIR$/Image Recognation/Tracker/w.py" />
-        <option value="$PROJECT_DIR$/Image Recognation/image_manager.py" />
         <option value="$PROJECT_DIR$/Image Recognation/label_map_manager.py" />
         <option value="$PROJECT_DIR$/Image Recognation/Data/image_data.csv.txt" />
         <option value="$PROJECT_DIR$/Image Recognation/Data/image_data.csv" />
@@ -336,11 +194,21 @@
         <option value="$PROJECT_DIR$/Image Recognation/robot_controller.py" />
         <option value="$PROJECT_DIR$/Mobile App/kv/detail.kv" />
         <option value="$PROJECT_DIR$/Image Recognation/video_manager.py" />
-        <option value="$PROJECT_DIR$/Image Recognation/data_assembler.py" />
-        <option value="$PROJECT_DIR$/Mobile App/main.py" />
-        <option value="$PROJECT_DIR$/Mobile App/Connexion.py" />
-        <option value="$PROJECT_DIR$/Image Recognation/predict.py" />
         <option value="$PROJECT_DIR$/Image Recognation/log.txt" />
+        <option value="$PROJECT_DIR$/The Unicator/src/video_manager.py" />
+        <option value="$PROJECT_DIR$/The Unicator/src/Server/Protocol_json.py" />
+        <option value="$PROJECT_DIR$/The Unicator/src/Server/Server.py" />
+        <option value="$PROJECT_DIR$/The Unicator/src/Server/Connection.py" />
+        <option value="$PROJECT_DIR$/The Unicator/src/Server/Start_server.py" />
+        <option value="$PROJECT_DIR$/Mobile App/Connexion.py" />
+        <option value="$PROJECT_DIR$/The Unicator/src/Server/ProtocolJson.py" />
+        <option value="$PROJECT_DIR$/Image Recognation/data_assembler.py" />
+        <option value="$PROJECT_DIR$/The Unicator/src/Server/video_manager.py" />
+        <option value="$PROJECT_DIR$/The Unicator/src/Server/Client_thread.py" />
+        <option value="$PROJECT_DIR$/Image Recognation/image_manager.py" />
+        <option value="$PROJECT_DIR$/Mobile App/kv/direction_button.kv" />
+        <option value="$PROJECT_DIR$/Mobile App/main.py" />
+        <option value="$PROJECT_DIR$/Image Recognation/predict.py" />
         <option value="$PROJECT_DIR$/Image Recognation/training.py" />
       </list>
     </option>
@@ -396,6 +264,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="The Unicator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet-Exploration-2017-2018" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet-Exploration-2017-2018" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="The Unicator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet-Exploration-2017-2018" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projet-Exploration-2017-2018" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Mobile App" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -414,24 +318,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projet-Exploration-2017-2018" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projet-Exploration-2017-2018" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Image Recognation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -446,7 +332,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Guillaume\Documents\Automne 2017\Exploration nouvelle technologie\Projet-Exploration-2017-2018\Image Recognation\Tracker" />
+      <recent name="C:\Users\Guillaume\Documents\Automne 2017\Exploration nouvelle technologie\Projet-Exploration-2017-2018\Image Recognation" />
+      <recent name="C:\Users\Guillaume\Documents\Automne 2017\Exploration nouvelle technologie\Projet-Exploration-2017-2018\Image Recognation\Data" />
+      <recent name="C:\Users\Guillaume\Documents\Automne 2017\Exploration nouvelle technologie\Projet-Exploration-2017-2018\The Unicator\src\Server\Data" />
+      <recent name="C:\Users\Guillaume\Documents\Automne 2017\Exploration nouvelle technologie\Projet-Exploration-2017-2018\The Unicator\src\Server" />
+      <recent name="C:\Users\Guillaume\Documents\Automne 2017\Exploration nouvelle technologie\Projet-Exploration-2017-2018\The Unicator\src" />
     </key>
   </component>
   <component name="RunManager" selected="Python.training">
@@ -464,24 +354,6 @@
       <module name="Projet-Exploration-2017-2018" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mobile App/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="training_data_creator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Image Recognation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Projet-Exploration-2017-2018" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Image Recognation/training_data_creator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -504,6 +376,42 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="Start_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/The Unicator/src/Server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Projet-Exploration-2017-2018" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/The Unicator/src/Server/Start_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/The Unicator/src/Server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Projet-Exploration-2017-2018" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/The Unicator/src/Server/Server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -518,24 +426,6 @@
       <module name="Projet-Exploration-2017-2018" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Image Recognation/predict.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="video_manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Image Recognation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Projet-Exploration-2017-2018" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Image Recognation/video_manager.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -756,18 +646,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.training_data_creator" />
-      <item index="2" class="java.lang.String" itemvalue="Python.training" />
-      <item index="3" class="java.lang.String" itemvalue="Python.predict" />
-      <item index="4" class="java.lang.String" itemvalue="Python.video_manager" />
+      <item index="1" class="java.lang.String" itemvalue="Python.training" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Start_server" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Server" />
+      <item index="4" class="java.lang.String" itemvalue="Python.predict" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.training" />
-        <item index="1" class="java.lang.String" itemvalue="Python.video_manager" />
-        <item index="2" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Start_server" />
         <item index="3" class="java.lang.String" itemvalue="Python.predict" />
-        <item index="4" class="java.lang.String" itemvalue="Python.training_data_creator" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -797,8 +687,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41322315" sideWeight="0.4171875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39274278" sideWeight="0.49583334" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39256197" sideWeight="0.49583334" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -818,48 +709,26 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Mobile App/main.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Image Recognation/image_manager.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Image Recognation/training.py</url>
           <line>88</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/The Unicator/src/Server/video_manager.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Image Recognation/predict.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="42" />
+          <line>53</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="56" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Image Recognation/Images/cup-4.jpg" />
-    <entry file="file://$PROJECT_DIR$/Image Recognation/Images/cup-3.jpg" />
-    <entry file="file://$PROJECT_DIR$/Image Recognation/Tracker/w.py" />
-    <entry file="file://$PROJECT_DIR$/Image Recognation/Ã¿.jpg" />
-    <entry file="file://$PROJECT_DIR$/Image Recognation/test.jpg" />
-    <entry file="file://$PROJECT_DIR$/Image Recognation/image_1510347805.53266.png" />
-    <entry file="file://$PROJECT_DIR$/Image Recognation/Data/image_data.txt" />
-    <entry file="file://$PROJECT_DIR$/Image Recognation/Data/image_data.csv.txt" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/multiprocessing/pool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Image Recognation/Data/test.csv" />
-    <entry file="file://$PROJECT_DIR$/Image Recognation/train_model/events.out.tfevents.1511289134.DESKTOP-I6Q9JK5" />
     <entry file="file://$PROJECT_DIR$/Image Recognation/assemble_data.py" />
     <entry file="file://$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-1116686.index" />
     <entry file="file://$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-1209279.index" />
@@ -869,20 +738,6 @@
     <entry file="file://$PROJECT_DIR$/Image Recognation/train_model/events.out.tfevents.1511320530.DESKTOP-I6Q9JK5" />
     <entry file="file://$PROJECT_DIR$/Image Recognation/train_model/events.out.tfevents.1511320588.DESKTOP-I6Q9JK5" />
     <entry file="file://$PROJECT_DIR$/Image Recognation/train_model/checkpoint" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/client/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="1340" column="0" lean-forward="false" selection-start-line="1340" selection-start-column="0" selection-end-line="1340" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-9260.data-00000-of-00001" />
     <entry file="file://$PROJECT_DIR$/Mobile App/kv/object_button.kv">
       <provider selected="true" editor-type-id="text-editor">
@@ -899,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mobile App/kv/menu.kv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mobile App/mobile.kv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -918,20 +766,6 @@
     <entry file="file://$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-962988.data-00000-of-00001" />
     <entry file="file://$PROJECT_DIR$/Image Recognation/train_model/model.ckpt-962988.index" />
     <entry file="file://$PROJECT_DIR$/Image Recognation/robot_controller.py" />
-    <entry file="file://$PROJECT_DIR$/Mobile App/kv/direction_button.kv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mobile App/kv/image_animation.kv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mobile App/kv/detail.kv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -953,57 +787,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Image Recognation/Data/predict_info.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Image Recognation/Data/training_info.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Image Recognation/image_1511485941.13828.png" />
     <entry file="file://$PROJECT_DIR$/Image Recognation/label_map_manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Image Recognation/training_data_creator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mobile App/Connexion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Image Recognation/video_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Image Recognation/predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1016,34 +804,213 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Image Recognation/training.py">
+    <entry file="file://$PROJECT_DIR$/The Unicator/src/Client/Client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Image Recognation/data_assembler.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_monkey_qt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="322">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mobile App/Connexion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The Unicator/src/Server/image_1511993593.45797.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="913" column="0" lean-forward="false" selection-start-line="913" selection-start-column="0" selection-end-line="913" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The Unicator/src/Server/Data/predict_info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Image Recognation/Data/predict_info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Image Recognation/Data/training_info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="1180" column="42" lean-forward="true" selection-start-line="1180" selection-start-column="42" selection-end-line="1180" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The Unicator/src/Server/video_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The Unicator/src/Server/Start_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The Unicator/src/Server/Server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The Unicator/src/Server/Protocol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The Unicator/src/Server/Connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Image Recognation/image_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="238">
+          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Image Recognation/data_assembler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="97" column="14" lean-forward="false" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Image Recognation/training_data_creator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="1320" column="0" lean-forward="false" selection-start-line="1320" selection-start-column="0" selection-end-line="1320" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mobile App/kv/menu.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mobile App/kv/image_animation.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mobile App/kv/direction_button.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mobile App/main.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Image Recognation/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The Unicator/src/Server/ProtocolJson.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/The Unicator/src/Server/Client_thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="67" lean-forward="false" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Image Recognation/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding />
         </state>
       </provider>

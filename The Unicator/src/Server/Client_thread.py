@@ -1,6 +1,4 @@
 import threading
-import os
-from Protocol import Protocol
 
 
 class ClientThread(threading.Thread):

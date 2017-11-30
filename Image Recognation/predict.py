@@ -44,12 +44,18 @@ class PredictionMaker:
             feature_columns=feature_columns,
             hidden_units=[10, 10],
             n_classes=10,
-            model_dir='ssd_mobilenet_v1_coco_11_06_2017'
+            model_dir='/tmp/image_model'
         )
 
-        for predic in classifier.predict(input_fn=(lambda: self.input_fn_predict())):
-            object_predict = self.find_object_by_id(predic['class_ids'])
-            print(object_predict)
+        predictions = classifier.predict(input_fn=(lambda: self.input_fn_predict()))
+
+        for prediction in predictions:
+            id = prediction['class_ids']
+            if prediction['probabilities'][id] >= 0.6:
+                object_predict = self.find_object_by_id(id)
+                return object_predict
+            else:
+                return None
 
     def find_object_by_id(self, predict_id):
         try:
@@ -82,6 +88,11 @@ if __name__ == '__main__':
         """
     )
     FLAGS = parser.parse_args()
+
+    pre = PredictionMaker()
+    pre.predict('ball_0000.jpeg')
+
+
 
 
 

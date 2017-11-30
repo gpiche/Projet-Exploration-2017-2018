@@ -56,6 +56,7 @@ class DataAssembler:
         map_args = zip(df['image_url'], df['image_filename'])
         return pool.map(self.download_image, map_args)
 
+    @staticmethod
     def get_workers(self, num_workers):
         if num_workers <= 0:
             return multiprocessing.cpu_count() + num_workers
