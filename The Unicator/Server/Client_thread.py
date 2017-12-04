@@ -26,3 +26,11 @@ class ClientThread(threading.Thread):
                 self.connection.send(bytes(msg, 'UTF8'))
 
 
+            #except ConnectionResetError as e:
+            #    pass
+
+            #except InterruptedError as e:
+            #    msg = 'Client "%s" error: %s' % (self.name, e)
+            #    self.connection.send(bytes(msg, 'UTF8'))
+
+

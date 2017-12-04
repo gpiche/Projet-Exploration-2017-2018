@@ -1,33 +1,41 @@
 import json
-from video_manager import VideoManager
-
+#from video_manager import VideoManager
+from Robot import Robot
 
 class ProtocolJson:
 
+    LEFT_TRIM = 0
+    RIGHT_TRIM = 0
+
     def __init__(self):
-        self.video_manager = VideoManager()
+        pass
+        #self.video_manager = VideoManager()
+        #self.robot = Robot(ProtocolJson.LEFT_TRIM,ProtocolJson.RIGHT_TRIM)
 
     def process_query(self, query):
         query = json.loads(query)
         for key in query:
             if key == "object":
-                return self.video_manager.read(query[key])
+                print(query[key])
+                #return self.video_manager.read(query[key])
             elif key == "command":
                 if query[key] == "go_ahead":
-                    pass
-                    # call go_ahead method
+                    print("Ahead")
+                    #robot.forward(100)
                 elif query[key] == "go_back":
-                    pass
-                    # call go_back method
+                    print ("Back")
+                    #robot.backward(100)
                 elif query[key] == "go_right":
+                    print ("Right")
                     pass
-                    # call go_right method
+                    #robot.right(100)
                 elif query[key] == "go_left":
+                    print ("Left")
                     pass
-                    # call go_left method
+                    #robot.left(100)
                 elif query[key] == "stop":
-                    pass
-                    # call stop method
+                    print("Stopped !")
+                    #robot.stop()
 
     @staticmethod
     def make_json_answer(answer, key):
