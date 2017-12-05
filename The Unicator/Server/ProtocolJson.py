@@ -21,21 +21,19 @@ class ProtocolJson:
             elif key == "command":
                 if query[key] == "go_ahead":
                     print("Ahead")
-                    #robot.forward(100)
+                    robot.forward(100)
                 elif query[key] == "go_back":
                     print ("Back")
-                    #robot.backward(100)
+                    robot.backward(100)
                 elif query[key] == "go_right":
                     print ("Right")
-                    pass
-                    #robot.right(100)
+                    robot.right(100)
                 elif query[key] == "go_left":
                     print ("Left")
-                    pass
-                    #robot.left(100)
+                    robot.left(100)
                 elif query[key] == "stop":
                     print("Stopped !")
-                    #robot.stop()
+                    robot.stop()
 
     @staticmethod
     def make_json_answer(answer, key):
