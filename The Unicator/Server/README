@@ -1,0 +1,2 @@
+Ici vous avez le coté serveur avec le code nécessaire pour lancer la reconnaissance d'objet.
+Pour lancer le serveur il suffit de l'exécuter à partir d'un éditeur ou la commande : python3 Start_Server.py
