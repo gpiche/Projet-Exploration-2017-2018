@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Image Recognation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Mobile App" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/The Unicator" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/The Unicator/src/Server" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/The Unicator/Server" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
