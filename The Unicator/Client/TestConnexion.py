@@ -4,7 +4,7 @@ MAX_RECV = 1024 * 1024 * 512
 
 class Connexion:
     def __init__(self):
-        self.host = 'localhost'
+        self.host = '192.168.1.103'
         self.port = 50010
         self.clientSocket = socket.socket()
         self.connect()
