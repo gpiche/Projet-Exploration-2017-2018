@@ -1,1 +1,4 @@
+Cette section est un simple test permettant de vérifier le bon fonctionnement de la connexion par socket vers le serveur.
 
+Il suffit de changer la valeur du champ "host" par l'adresse IP de votre Raspberry Pi hébergeant le serveur.
+Pour lancer le test il suffit d'exécuter le "main.py" via un éditeur ou avec la commande : python3 main.py
